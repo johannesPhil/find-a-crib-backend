@@ -1,5 +1,5 @@
 <?php
-    mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+    
     require('config/db_connect.php');
     
     if($conn){
@@ -16,4 +16,5 @@
     if($q){
         echo "INSERTED!";
     }
+    echo var_dump($q);
 ?>
