@@ -1,5 +1,4 @@
 <?php
-    mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
     require('config/db_connect.php');
     $conn = new mysqli($server, $username, $password, $db);
     
