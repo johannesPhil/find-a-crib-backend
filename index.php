@@ -7,4 +7,5 @@
     else{
         echo "Nope";
 }
+echo $password;
 ?>
