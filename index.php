@@ -17,4 +17,5 @@
         echo "INSERTED!";
     }
     echo var_dump($q);
+    mysqli_error($q);
 ?>
