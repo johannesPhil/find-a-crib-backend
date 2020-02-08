@@ -3,8 +3,9 @@
     echo "Remote MYSQL!!!!!";
     if($conn){
         echo "Yes";
+        echo $password;
     }
     else{
         echo "Nope";
-}
+    }
 ?>
