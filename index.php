@@ -2,7 +2,7 @@
     require('config/db_connect.php');
     
     if($conn){
-        echo "Remote MYSQL!!!!!";
+        echo "HelioHost MYSQL!!!!!";
     }
     else{
         echo "Nope";
