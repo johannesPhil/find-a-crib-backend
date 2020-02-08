@@ -1,11 +1,10 @@
 <?php
     require('config/db_connect.php');
-    echo "Yeah we here brah!!!!!!!!";
+    echo "Remote MYSQL!!!!!";
     if($conn){
         echo "Yes";
     }
     else{
         echo "Nope";
 }
-echo $password;
 ?>
