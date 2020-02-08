@@ -1,17 +1,10 @@
 <?php
+    require('config/db_connect.php');
     echo "Yeah we here brah!!!!!!!!";
-    $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-
-$server = $url["host"];
-$username = $url["user"];
-$password = $url["pass"];
-$db = substr($url["path"], 1);
-
-$conn = new mysqli($server, $username, $password, $db);
-if($conn){
-    echo "Yep";
-}
-else{
-    echo "Nope";
+    if($conn){
+        echo "Yep";
+    }
+    else{
+        echo "Nope";
 }
 ?>
