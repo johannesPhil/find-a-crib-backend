@@ -1,6 +1,6 @@
 <?php
     require('config/db_connect.php');
-    $conn = new mysqli($server, $username, $password, $db);
+    // $conn = new mysqli($server, $username, $password, $db);
     
     if($conn){
         echo "Hello";
